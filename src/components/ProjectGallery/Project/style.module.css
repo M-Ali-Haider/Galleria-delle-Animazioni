@@ -1,0 +1,23 @@
+.project {
+  transition: all 0.2s linear;
+}
+.project:hover {
+  opacity: 0.4;
+}
+.rest {
+  transition: all 0.2s linear;
+}
+.title {
+  transition: all 0.2s linear;
+}
+
+.project:hover .rest {
+  transform: translateX(-10px);
+}
+.project:hover .title {
+  transform: translateX(10px);
+}
+
+.slider {
+  transition: top 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
