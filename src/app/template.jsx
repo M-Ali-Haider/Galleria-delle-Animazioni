@@ -24,7 +24,7 @@ export default function Template({ children }) {
         id="banner-1"
         className="h-[calc(100vh+600px)] w-screen z-[90] fixed top-0 left-0 pointer-events-none"
       >
-        <path id="banner-3"></path>
+        <path id="banner-3" style={{ fill: "black" }}></path>
       </svg>
       <div
         id="banner-2"
