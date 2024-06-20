@@ -4,6 +4,10 @@ import { useState } from "react";
 import styles from "./style.module.css";
 import useMousePosition from "./useMousePosition";
 import { motion } from "framer-motion";
+
+const statement1 =
+  "All the credit goes to Olivier Larose for teaching me these animations. Check him out on YouTube for to learn animations.";
+
 export default function MaskCursor() {
   const [isHovered, setIsHovered] = useState(false);
   const { x, y } = useMousePosition();
@@ -25,16 +29,14 @@ export default function MaskCursor() {
             onMouseLeave={() => setIsHovered(false)}
             className=" max-w-[1000px]"
           >
-            A visual designer - with skills that haven't been replaced by A.I
-            &lpar;yet&rpar; - making good shit only if paycheck is equally good.
+            {statement1}
           </p>
         </motion.div>
         <div className="w-full h-full flex items-center justify-center">
           <p className="max-w-[1000px]">
-            I&apos;m a{" "}
-            <span className=" text-gray-700">selectively skilled</span> product
-            designer with strong focus on producing high quality & impactful
-            digital experience.
+            <span className=" text-gray-700">Hover Over</span> this paragraph to
+            see the animation work. Original Designer of this animation is Minh
+            Pahm on YouTube.
           </p>
         </div>
       </div>
