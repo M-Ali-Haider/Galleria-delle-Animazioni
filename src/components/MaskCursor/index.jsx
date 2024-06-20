@@ -26,7 +26,7 @@ export default function MaskCursor() {
             className=" max-w-[1000px]"
           >
             A visual designer - with skills that haven't been replaced by A.I
-            (yet) - making good shit only if paycheck is equally good.
+            {"("}yet{")"} - making good shit only if paycheck is equally good.
           </p>
         </motion.div>
         <div className="w-full h-full flex items-center justify-center">
