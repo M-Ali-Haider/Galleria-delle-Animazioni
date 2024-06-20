@@ -11,7 +11,7 @@ const statement1 =
 export default function MaskCursor() {
   const [isHovered, setIsHovered] = useState(false);
   const { x, y } = useMousePosition();
-  const size = isHovered ? 200 : 40;
+  const size = isHovered ? 250 : 40;
 
   return (
     <>
