@@ -31,9 +31,10 @@ export default function MaskCursor() {
         </motion.div>
         <div className="w-full h-full flex items-center justify-center">
           <p className="max-w-[1000px]">
-            I'm a <span className=" text-gray-700">selectively skilled</span>{" "}
-            product designer with strong focus on producing high quality &
-            impactful digital experience.
+            I&apos;m a{" "}
+            <span className=" text-gray-700">selectively skilled</span> product
+            designer with strong focus on producing high quality & impactful
+            digital experience.
           </p>
         </div>
       </div>
