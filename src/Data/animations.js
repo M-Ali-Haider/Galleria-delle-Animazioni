@@ -3,4 +3,5 @@ export const animations = [
   { href: "/MagneticGSAP", name: "Magnet", tech: "GSAP" },
   { href: "/MagneticFM", name: "Magnet", tech: "Framer Motion" },
   { href: "/Marquee", name: "Marquee", tech: "GSAP" },
+  { href: "/MaskCursor", name: "Mask Cursor", tech: "Framer Motion" },
 ];

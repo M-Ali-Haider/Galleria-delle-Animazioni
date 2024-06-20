@@ -1,0 +1,7 @@
+.mask {
+  mask-image: url(../../../public/mask.svg);
+  background: black;
+  mask-repeat: no-repeat;
+  color: white;
+  mask-size: 40px;
+}
